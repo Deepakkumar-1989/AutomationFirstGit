@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="9" failed="0" total="11" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[ *** Excript execution for TC001_Create_an_Account is completed***]]>
+    </line>
+    <line>
+      <![CDATA[TC002_Create_an_AccountTest Case got skipped as Run mode is 'N' in excel sheet]]>
+    </line>
+    <line>
+      <![CDATA[ *** Excript execution for TC003_Create_an_Account is completed***]]>
+    </line>
+  </reporter-output>
+  <suite name="HCSTC" duration-ms="49787" started-at="2020-05-24T13:31:50Z" finished-at="2020-05-24T13:32:40Z">
+    <groups>
+    </groups>
+    <test name="Login functionality testing" duration-ms="49787" started-at="2020-05-24T13:31:50Z" finished-at="2020-05-24T13:32:40Z">
+      <class name="com.ComName.ProName.testCase.TC002_Create_an_Account">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:com.ComName.ProName.testCase.TC002_Create_an_Account@1f1baf5]" name="isSkip" is-config="true" duration-ms="0" started-at="2020-05-24T19:02:16Z" finished-at="2020-05-24T19:02:16Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skiping this Test Case as it's Run Mode is marked as N in excel sheet]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skiping this Test Case as it's Run Mode is marked as N in excel sheet
+	at com.ComName.ProName.testCase.TC002_Create_an_Account.isSkip(TC002_Create_an_Account.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:521)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="TC002_Create_An_Account(java.util.Hashtable)[pri:0, instance:com.ComName.ProName.testCase.TC002_Create_an_Account@1f1baf5]" name="TC002_Create_An_Account" duration-ms="0" started-at="2020-05-24T19:02:16Z" data-provider="Data_Collections" finished-at="2020-05-24T19:02:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Phone_No=row7 or column 4does not exist in xls , Password=password1, Email_Id=deepakkumar.globus01@gmail.com, Iteration=row7 or column 0does not exist in xls , First_Name=Vijay, Address=Chaibasa, Last_Name=Kumar}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_Create_An_Account -->
+      </class> <!-- com.ComName.ProName.testCase.TC002_Create_an_Account -->
+      <class name="com.ComName.ProName.testCase.TC004_Create_an_Account">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:com.ComName.ProName.testCase.TC004_Create_an_Account@40365c]" name="isSkip" is-config="true" duration-ms="0" started-at="2020-05-24T19:02:40Z" finished-at="2020-05-24T19:02:40Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skiping this Test Case as it's Run Mode is marked as N in excel sheet]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skiping this Test Case as it's Run Mode is marked as N in excel sheet
+	at com.ComName.ProName.testCase.TC004_Create_an_Account.isSkip(TC004_Create_an_Account.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:521)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="TC004_Create_An_Account(java.util.Hashtable)[pri:0, instance:com.ComName.ProName.testCase.TC004_Create_an_Account@40365c]" name="TC004_Create_An_Account" duration-ms="10" started-at="2020-05-24T19:02:40Z" data-provider="Data_Collections" finished-at="2020-05-24T19:02:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Phone_No=row15 or column 4does not exist in xls , Password=password1, Email_Id=deepakkumar.globus01@gmail.com, Iteration=row15 or column 0does not exist in xls , First_Name=Aradhya, Address=Pune, Last_Name=Sinha}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC004_Create_An_Account -->
+      </class> <!-- com.ComName.ProName.testCase.TC004_Create_an_Account -->
+      <class name="com.ComName.ProName.testCase.TC005_Create_an_Account">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:com.ComName.ProName.testCase.TC005_Create_an_Account@1edc48a]" name="isSkip" is-config="true" duration-ms="0" started-at="2020-05-24T19:02:40Z" finished-at="2020-05-24T19:02:40Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skiping this Test Case as it's Run Mode is marked as N in excel sheet]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skiping this Test Case as it's Run Mode is marked as N in excel sheet
+	at com.ComName.ProName.testCase.TC005_Create_an_Account.isSkip(TC005_Create_an_Account.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:521)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="TC005_Create_An_Account(java.util.Hashtable)[pri:0, instance:com.ComName.ProName.testCase.TC005_Create_an_Account@1edc48a]" name="TC005_Create_An_Account" duration-ms="10" started-at="2020-05-24T19:02:40Z" data-provider="Data_Collections" finished-at="2020-05-24T19:02:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Phone_No=row23 or column 4does not exist in xls , Password=password1, Email_Id=deepakkumar.globus01@gmail.com, Iteration=row23 or column 0does not exist in xls , First_Name=Sandhya, Address=Pune, Last_Name=Kumari}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005_Create_An_Account -->
+        <test-method status="SKIP" signature="TC005_Create_An_Account(java.util.Hashtable)[pri:0, instance:com.ComName.ProName.testCase.TC005_Create_an_Account@1edc48a]" name="TC005_Create_An_Account" duration-ms="0" started-at="2020-05-24T19:02:40Z" data-provider="Data_Collections" finished-at="2020-05-24T19:02:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Phone_No=row20 or column 4does not exist in xls , Password=password1, Email_Id=deepakkumar.globus01@gmail.com, Iteration=row20 or column 0does not exist in xls , First_Name=Sandhya, Address=Pune, Last_Name=Kumari}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005_Create_An_Account -->
+        <test-method status="SKIP" signature="TC005_Create_An_Account(java.util.Hashtable)[pri:0, instance:com.ComName.ProName.testCase.TC005_Create_an_Account@1edc48a]" name="TC005_Create_An_Account" duration-ms="0" started-at="2020-05-24T19:02:40Z" data-provider="Data_Collections" finished-at="2020-05-24T19:02:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Phone_No=row19 or column 4does not exist in xls , Password=password1, Email_Id=deepakkumar.globus01@gmail.com, Iteration=row19 or column 0does not exist in xls , First_Name=Sandhya, Address=Pune, Last_Name=Kumari}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005_Create_An_Account -->
+        <test-method status="SKIP" signature="TC005_Create_An_Account(java.util.Hashtable)[pri:0, instance:com.ComName.ProName.testCase.TC005_Create_an_Account@1edc48a]" name="TC005_Create_An_Account" duration-ms="0" started-at="2020-05-24T19:02:40Z" data-provider="Data_Collections" finished-at="2020-05-24T19:02:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Phone_No=row22 or column 4does not exist in xls , Password=password1, Email_Id=deepakkumar.globus01@gmail.com, Iteration=row22 or column 0does not exist in xls , First_Name=Sandhya, Address=Pune, Last_Name=Kumari}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005_Create_An_Account -->
+        <test-method status="SKIP" signature="TC005_Create_An_Account(java.util.Hashtable)[pri:0, instance:com.ComName.ProName.testCase.TC005_Create_an_Account@1edc48a]" name="TC005_Create_An_Account" duration-ms="0" started-at="2020-05-24T19:02:40Z" data-provider="Data_Collections" finished-at="2020-05-24T19:02:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Phone_No=row21 or column 4does not exist in xls , Password=password1, Email_Id=deepakkumar.globus01@gmail.com, Iteration=row21 or column 0does not exist in xls , First_Name=Sandhya, Address=Pune, Last_Name=Kumari}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005_Create_An_Account -->
+        <test-method status="SKIP" signature="TC005_Create_An_Account(java.util.Hashtable)[pri:0, instance:com.ComName.ProName.testCase.TC005_Create_an_Account@1edc48a]" name="TC005_Create_An_Account" duration-ms="0" started-at="2020-05-24T19:02:40Z" data-provider="Data_Collections" finished-at="2020-05-24T19:02:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Phone_No=row25 or column 4does not exist in xls , Password=password1, Email_Id=deepakkumar.globus01@gmail.com, Iteration=row25 or column 0does not exist in xls , First_Name=Sandhya, Address=Pune, Last_Name=Kumari}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005_Create_An_Account -->
+        <test-method status="SKIP" signature="TC005_Create_An_Account(java.util.Hashtable)[pri:0, instance:com.ComName.ProName.testCase.TC005_Create_an_Account@1edc48a]" name="TC005_Create_An_Account" duration-ms="0" started-at="2020-05-24T19:02:40Z" data-provider="Data_Collections" finished-at="2020-05-24T19:02:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Phone_No=row24 or column 4does not exist in xls , Password=password1, Email_Id=deepakkumar.globus01@gmail.com, Iteration=row24 or column 0does not exist in xls , First_Name=Sandhya, Address=Pune, Last_Name=Kumari}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005_Create_An_Account -->
+      </class> <!-- com.ComName.ProName.testCase.TC005_Create_an_Account -->
+      <class name="com.ComName.ProName.testCase.TC003_Create_an_Account">
+        <test-method status="PASS" signature="isSkip()[pri:0, instance:com.ComName.ProName.testCase.TC003_Create_an_Account@1a2befb]" name="isSkip" is-config="true" duration-ms="0" started-at="2020-05-24T19:02:16Z" finished-at="2020-05-24T19:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="PASS" signature="TC003_Create_An_Account(java.util.Hashtable)[pri:0, instance:com.ComName.ProName.testCase.TC003_Create_an_Account@1a2befb]" name="TC003_Create_An_Account" duration-ms="22774" started-at="2020-05-24T19:02:16Z" data-provider="Data_Collections" finished-at="2020-05-24T19:02:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Phone_No=row11 or column 4does not exist in xls , Password=password1, Email_Id=deepakkumar.globus01@gmail.com, Iteration=row11 or column 0does not exist in xls , First_Name=Ganesh, Address=Pune, Last_Name=Bhosle}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Excript execution for TC003_Create_an_Account is completed***]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC003_Create_An_Account -->
+      </class> <!-- com.ComName.ProName.testCase.TC003_Create_an_Account -->
+      <class name="com.ComName.ProName.testCase.TC001_Create_an_Account">
+        <test-method status="PASS" signature="loadingFilesAndGenerateReport()[pri:0, instance:com.ComName.ProName.testCase.TC001_Create_an_Account@10f3d34]" name="loadingFilesAndGenerateReport" is-config="true" duration-ms="211" started-at="2020-05-24T19:01:50Z" finished-at="2020-05-24T19:01:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadingFilesAndGenerateReport -->
+        <test-method status="PASS" signature="isSkip()[pri:0, instance:com.ComName.ProName.testCase.TC001_Create_an_Account@10f3d34]" name="isSkip" is-config="true" duration-ms="10" started-at="2020-05-24T19:01:50Z" finished-at="2020-05-24T19:01:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="PASS" signature="TC001_Create_An_Account(java.util.Hashtable)[pri:0, instance:com.ComName.ProName.testCase.TC001_Create_an_Account@10f3d34]" name="TC001_Create_An_Account" duration-ms="24717" started-at="2020-05-24T19:01:50Z" data-provider="Data_Collections" finished-at="2020-05-24T19:02:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Phone_No=row3 or column 4does not exist in xls , Password=password1, Email_Id=deepakkumar.globus01@gmail.com, Iteration=row3 or column 0does not exist in xls , First_Name=Deepak, Address=Pune, Last_Name=Kumar}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ *** Excript execution for TC001_Create_an_Account is completed***]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC001_Create_An_Account -->
+        <test-method status="PASS" signature="writeIntoExtentReports()[pri:0, instance:com.ComName.ProName.testCase.TC001_Create_an_Account@10f3d34]" name="writeIntoExtentReports" is-config="true" duration-ms="424" started-at="2020-05-24T19:02:40Z" finished-at="2020-05-24T19:02:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeIntoExtentReports -->
+      </class> <!-- com.ComName.ProName.testCase.TC001_Create_an_Account -->
+    </test> <!-- Login functionality testing -->
+  </suite> <!-- HCSTC -->
+</testng-results>

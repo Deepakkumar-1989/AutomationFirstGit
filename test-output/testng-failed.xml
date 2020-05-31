@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HCSTC]">
+  <listeners>
+    <listener class-name="com.ComName.ProName.customListeners.Listener"/>
+  </listeners>
+  <test name="Login functionality testing(failed)">
+    <classes>
+      <class name="com.ComName.ProName.testCase.TC005_Create_an_Account">
+        <methods>
+          <include name="TC005_Create_An_Account"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- com.ComName.ProName.testCase.TC005_Create_an_Account -->
+      <class name="com.ComName.ProName.testCase.TC002_Create_an_Account">
+        <methods>
+          <include name="isSkip"/>
+          <include name="TC002_Create_An_Account"/>
+        </methods>
+      </class> <!-- com.ComName.ProName.testCase.TC002_Create_an_Account -->
+      <class name="com.ComName.ProName.testCase.TC004_Create_an_Account">
+        <methods>
+          <include name="isSkip"/>
+          <include name="TC004_Create_An_Account"/>
+        </methods>
+      </class> <!-- com.ComName.ProName.testCase.TC004_Create_an_Account -->
+      <class name="com.ComName.ProName.testCase.TC003_Create_an_Account">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- com.ComName.ProName.testCase.TC003_Create_an_Account -->
+      <class name="com.ComName.ProName.testCase.TC001_Create_an_Account">
+        <methods>
+          <include name="writeIntoExtentReports"/>
+          <include name="loadingFilesAndGenerateReport"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- com.ComName.ProName.testCase.TC001_Create_an_Account -->
+    </classes>
+  </test> <!-- Login functionality testing(failed) -->
+</suite> <!-- Failed suite [HCSTC] -->

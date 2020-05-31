@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="HCSTC" verbose="1">
+	<test name="Login functionality testing">
+		
+		
+	<listeners>
+		
+	<listener class-name ="com.ComName.ProName.customListeners.Listener" />
+		
+		</listeners>
+		
+		
+		<classes>
+			<class name="com.ComName.ProName.testCase.TC001_Create_an_Account"/>
+			<class name="com.ComName.ProName.testCase.TC002_Create_an_Account"/>
+			<class name="com.ComName.ProName.testCase.TC003_Create_an_Account"/>
+			<class name="com.ComName.ProName.testCase.TC004_Create_an_Account"/>
+			<class name="com.ComName.ProName.testCase.TC005_Create_an_Account"/>
+
+		</classes>
+	</test>
+</suite>
